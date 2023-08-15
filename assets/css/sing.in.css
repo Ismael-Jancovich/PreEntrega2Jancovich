@@ -1,0 +1,78 @@
+body {
+    background-color: #b5bbc1;
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, black 80%, transparent 0), radial-gradient(gray 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color: #ffffff;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 90px 40px 0px 0px;
+    font-size: 40px;
+  }
+  
+  form {
+    width: 65%;
+    height: 100%;
+  }
+  
+  a {
+    padding: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .box {
+    display: flex;
+    background-color: rgba(24, 39, 39, 0.97);
+    width: 700px;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .box__username {
+    margin: 100px 50px 70px 0px;
+  }
+  
+  .span__username {
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
+  .input__username {
+    width: 500px;
+    margin-top: 15px;
+  }
+  
+  .box__password {
+    margin: 100px 50px 70px 0px;
+  }
+  
+  .span__password {
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
+  .input__password {
+    width: 500px;
+    margin-top: 15px;
+  }
+  
+  .links {
+    margin: 100px 50px 70px 0px;
+  }
+  
+  .box__input__sing__in {
+    height: 30px;
+    width: 500px;
+  }

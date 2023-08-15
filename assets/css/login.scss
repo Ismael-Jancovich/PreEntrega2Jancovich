@@ -1,0 +1,94 @@
+$colorcaja: rgb(28, 32, 32); 
+$colorletra: #ffffff;
+$margincajas: 100px 50px 70px 0px;
+$widthbox: 500px;
+$margin-input: 15px;
+$fontsizebox: 25px;
+$text-decoration: none;
+
+
+body{
+    background-color: #b5bbc1;
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, black 80%, transparent 0), radial-gradient(gray 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ffffff;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 90px 40px 0px 0px;
+    font-size: 40px;
+}
+
+form{
+    width: 65%;
+    height: 100%;
+}
+
+a{
+    padding: 60px;
+    color: $colorletra;
+    text-decoration: $text-decoration;
+    font-size: 15px;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(24 39 39 / 97%);
+    width: 700px;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box__username{
+ margin: $margincajas;
+ 
+}
+
+
+.span__username{
+    color: $colorletra;
+    font-size: $fontsizebox;
+}
+
+
+.input__username{
+    width: $widthbox;
+    margin-top: $margin-input;
+}
+
+
+.box__password{
+    margin: $margincajas;
+}
+
+.span__password{
+    color: $colorletra;
+    font-size: $fontsizebox;
+}
+
+.input__password{
+ width: $widthbox;
+ margin-top: $margin-input;
+}
+
+.links{
+    margin: $margincajas;
+    
+}
+
+
+.box__input__log__in{
+    height: 30px;
+    width: 500px;
+  
+}
