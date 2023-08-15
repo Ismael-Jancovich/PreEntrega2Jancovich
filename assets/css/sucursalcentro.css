@@ -28,6 +28,11 @@ header {
   box-shadow: rgba(49, 49, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(0, 127, 255, 0.35) 0px -2px 6px 0px inset;
 }
 
+h2{
+  color: aliceblue;
+  margin-left: 20px;
+}
+
 .header__logo__name {
   display: flex;
   flex-direction: row-reverse;
@@ -75,50 +80,57 @@ header {
   color: black;
 }
 
-.content{
+.content {
   background-color: #2C3333;
+  width: 1300px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
-.acordion {
-  max-width: 800px;
-}
-
-.acordion .contentBx{
-  position: relative;
-  margin: 10px 20px;
-}
-
-.acordion .contentBx .label{
-  position: relative;
-  padding: 10px;
-  background: #51d4d4;
-  color: #fff;
-  cursor: pointer;
-}
-
-.acordion .contentBx .label::before{
-  content: "+";
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  font-size: 1.5em;
-}
-.acordion .contentBx.active .label::before{
-  content: "-";
-}
-
-.acordion .contentBx .content{
-  position: relative;
-  background: #fff;
-  height: 0;
+.contentido__text{
+  width: 600px;
+  color: azure;
   overflow: hidden;
-  transition: 0.5s;
-  overflow-y: auto;
+  margin: 30px;
+  border-radius: 20px;
+  background-color: #1f2222;
 }
 
-.acordion .contentBx.active .content{
-  height: 150px;
-  padding: 10px;
+.top{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.emoticon__cerveza{
+  animation: rotate 4s linear infinite;
+  border-radius: 70px;
+}
+
+.imagenes {
+  height: 600px;
+  margin-top: 85px;
+}
+
+
+.img__muestra{
+  height: 100%;
+}
+.img__carta{
+  height: 100%;
+}
+
+
+@keyframes rotate {
+  from{
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=sucursalcentro.css.map */
