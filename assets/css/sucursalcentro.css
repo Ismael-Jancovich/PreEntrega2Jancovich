@@ -10,9 +10,8 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #b5bbc1;
-  background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, black 80%, transparent 0), radial-gradient(gray 2px, transparent 0);
-  background-size: 30px 30px, 30px 30px;
+  background: #A7CFDF;
+  background: linear-gradient(to left, #A7CFDF 0%, #23538A 100%);
 }
 
 header {
@@ -31,6 +30,7 @@ header {
 h2{
   color: aliceblue;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .header__logo__name {
@@ -53,7 +53,7 @@ h2{
 .bottoms {
   display: flex;
   column-gap: 70px;
-  margin: 0px 5px 0px 0px;
+  margin: 0px 15px 0px 0px;
 }
 
 .botom__log__in {
@@ -81,22 +81,27 @@ h2{
 }
 
 .content {
-  background-color: #2C3333;
   width: 1300px;
-  height: 800px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+background-color: #374267;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .contentido__text{
-  width: 600px;
+  width: 555px;
+  height: 580px;
   color: azure;
   overflow: hidden;
   margin: 30px;
   border-radius: 20px;
   background-color: #1f2222;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .top{
@@ -113,12 +118,18 @@ h2{
 
 .imagenes {
   height: 600px;
+  width: 700px;
   margin-top: 85px;
+  background-color: #2C3333;
+  display: flex;
+  justify-content: center;
+
+ 
 }
 
 
-.img__muestra{
-  height: 100%;
+.img__centro__muestra{
+  height: 400px;
 }
 .img__carta{
   height: 100%;
