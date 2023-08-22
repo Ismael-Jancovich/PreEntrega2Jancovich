@@ -194,6 +194,56 @@ header {
 .footer{
     width: 100%;
     background-color: #2C3333;
-    border: 14px solid black;
     margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.footer__col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__col h4 {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #cb3535;
+    text-transform: capitalize;
+}
+
+.footer__col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+ul li a:hover{
+    color: white;
+    padding-left: 2px;
 }
