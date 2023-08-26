@@ -1,6 +1,152 @@
-body{
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: black;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     background: #A7CFDF;
     background: linear-gradient(to left, #A7CFDF 0%, #23538A 100%);
-}
-
-
+  }
+  
+  header {
+    width: 100%;
+    background-color: #2C3333;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 25px 0px;
+    box-shadow: rgba(49, 49, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(0, 127, 255, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  h2{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .header__logo__name {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  
+  .logo__header {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .title {
+    color: rgb(231, 246, 242);
+    margin: 20px 0px 0px 40px;
+  }
+  
+  .bottoms {
+    display: flex;
+    column-gap: 70px;
+    margin: 0px 15px 0px 0px;
+  }
+  
+  .botom__log__in {
+    border: 3px solid black;
+    background: rgb(231, 246, 242);
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .botom__sign__in {
+    border: 3px solid black;
+    background: rgb(231, 246, 242);
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .botom__nosotros {
+    border: 3px solid black;
+    background: rgb(231, 246, 242);
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .content {
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  background-color: #374267;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .contentido__text{
+    width: 555px;
+    height: 580px;
+    color: azure;
+    overflow: hidden;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: #1f2222;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .top{
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 5px;
+  }
+  
+  .emoticon__cerveza{
+    animation: rotate 4s linear infinite;
+    border-radius: 70px;
+  }
+  
+  .imagenes {
+    height: 600px;
+    width: 700px;
+    margin-top: 85px;
+    background-color: #2C3333;
+    display: flex;
+    justify-content: center;
+  
+   
+  }
+  .imagen__bebida{
+  height: 410px;
+  }
+  .imagen__comida{
+    height: 410px;
+  }
+  
+  
+  .img__centro__muestra{
+    height: 400px;
+  }
+  .img__carta{
+    height: 100%;
+  }
+  
+  
+  @keyframes rotate {
+    from{
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
