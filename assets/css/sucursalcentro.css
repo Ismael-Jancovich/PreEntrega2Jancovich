@@ -126,6 +126,12 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
 
  
 }
+.imagen__bebida{
+height: 410px;
+}
+.imagen__comida{
+  height: 410px;
+}
 
 
 .img__centro__muestra{
